@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp">
+
+    <Button
+        android:id="@+id/delete_allPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="删除所有密码"/>
+
+    <Button
+        android:id="@+id/delete_Database"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="删除所有账户数据"/>
+
+    <EditText
+        android:id="@+id/edit_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="输入添加账户"/>
+    <Button
+        android:id="@+id/btn_accountAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="确认添加"/>
+    <RadioGroup
+        android:id="@+id/radiogroup_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/btn_radio_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="支出"
+            />
+        <RadioButton
+            android:id="@+id/btn_radio_2"
+            android:textSize="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="收入"
+            />
+    </RadioGroup>
+    <EditText
+        android:id="@+id/edit_category_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="输入添加一级分类"/>
+<!--    <Button-->
+<!--        android:id="@+id/btn_category_1_Add"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="25dp"-->
+<!--        android:text="确认添加"/>-->
+    <EditText
+        android:id="@+id/edit_category_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="输入添加二级分类"/>
+    <Button
+        android:id="@+id/btn_category_2_Add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="确认添加"/>
+
+    <EditText
+        android:id="@+id/edit_member"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="输入添加成员"/>
+    <Button
+        android:id="@+id/btn_memberAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="确认添加"/>
+
+</LinearLayout>

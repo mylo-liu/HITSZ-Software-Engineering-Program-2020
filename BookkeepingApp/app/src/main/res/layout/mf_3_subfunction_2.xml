@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.don.pieviewlibrary.PercentPieView
+        android:id="@+id/pieView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="11"
+        app:centerTextColor="#000000"
+        app:centerTextSize="24sp"
+        app:circleWidth="50dp"
+        app:dataTextColor="@color/white"
+        app:dataTextSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+        <Button
+            android:id="@+id/btn_select_mf3_sf2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:text="选择展示分类" />
+    </LinearLayout>
+
+
+</LinearLayout>
